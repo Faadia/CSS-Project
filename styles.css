@@ -1,0 +1,299 @@
+/*Styling my body with a background color of black and margins*/
+body {
+  background-color: silver;
+  margin-right: 110px;
+  margin-left: 110px;
+}
+
+/*Styling my navigation bar with a hidden overflow, a blue background, a left float and the necessary selectors to style my navigation bar*/
+.nav {
+  overflow: hidden;
+  background-color: blue;
+  padding: 20px;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 15%;
+  padding: 5px;
+  line-height: 20px;
+}
+
+/*Enabling my hover to have a transition that enables my wording to go bigger when hovering over it and a nice font*/
+.nav a:hover {
+  padding: 25px;
+  transition: 3s;
+  font-size: 20px;
+  color: black;
+  font-family: 'Nosifer',sans-serif;
+}
+
+/*Styling my paragraph with a font-size and width*/
+#p {
+  font-size: 25px;
+  width: 65%;
+}
+
+/*Styling my heading with a font-size and width*/
+.heading{
+  font-size: 20px;
+  width: 50%;
+}
+
+/*Styling my tags with a font-size and color*/
+.tags{
+  font-size: 10px;
+  color: red;
+}
+
+/*Styling my dummies with a font-size and color*/
+.dummies {
+  font-size: 15px;
+  color: green;
+}
+
+/*Styling my date with a font-size, color and width*/
+.Date {
+  font-size: 12px;
+  color: gray;
+  width: 70%;
+}
+
+/*Styling my information with a font-size, color and width*/
+.information {
+  font-size: 15px;
+  color: black;
+  width: 70%;
+}
+
+/*Styling my border with ridge and groove values*/
+.border {
+    border-top-style: ridge;
+    border-right-style: groove;
+    border-bottom-style: ridge;
+    border-left-style: groove;
+    height: 270px;
+    width: 65%;
+}
+
+/*Styling my boxes with a border, color, width and height*/
+.boxed {
+  border: 1px solid blue;
+  background-color: blue;
+  width: 34%;
+  height: 14%;
+}
+
+/*Styling my horizontal lines with a border, color, width and weight*/
+.hr {
+  border-style: solid;
+  border-color: #DCDCDC;
+  width: 65%;
+}
+
+#hr {
+  border-style: solid;
+  border-color: gray ;
+}
+
+/*Styling my footer with an image , position, shadow and text-align*/
+#footer {
+           background-color: #000000;
+           height: 85px;
+           width: 1120px;
+           border-bottom: 1px solid grey;
+           background-image: url("images/sabc-logo.jpg");
+           background-size: 200px 75px;
+           background-repeat: no-repeat;
+           text-align: left;
+           }
+
+/*Styling my social media icons with a proper size and suitable look*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    position: sticky;
+    margin: 5px 2px;
+    float: right;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transition: 2s;
+  width: 60px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: #F0FFF0 ;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: #F0FFF0 ;
+}
+
+.fa-youtube {
+  background: #125688;
+  color: #F0FFF0 ;
+}
+/*Styling my table headings to be red, in order for it to stand out, a center alignment and a proper font-size*/
+.th {
+  color: red;
+  text-align: left;
+  font-size: 20px;
+}
+
+/*Styling the id of myForm to float to the left*/
+#myForm {
+  float: right;
+}
+
+/*Making my h3 to styled in italics, aligned in the center with a blue color and a height of 30px*/
+h3 {
+  background-color: blue;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  height: 30px;
+}
+
+/*Styling my various id's thta is placed in the footer to be floated left, be white, have proper paddings and a font of 20px*/
+#About {
+  float: left;
+  padding-left: 240px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Ad {
+  float: left;
+  padding-left: 80px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Contact {
+  float: left;
+  padding-left: 80px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Claimer {
+  float: left;
+  padding-left: 80px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Tender {
+  float: left;
+  padding-left: 240px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Press {
+  float: left;
+  padding-left: 150px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Job {
+  float: left;
+  padding-left: 50px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#Site {
+  float: left;
+  padding-left: 130px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/*Setting the boxes of my colorful tables with varius colors, floats to the left, with proper widths and heights*/
+#Blue {
+  background-color: Blue;
+  width: 280px;
+  height: 250px;
+  float: left;
+}
+
+#Red {
+  background-color: Red;
+  width: 280px;
+  height: 318px;
+  float: left;
+}
+
+#Green {
+  background-color: Green;
+  width: 280px;
+  height: 250px;
+  float: left;
+}
+
+#Yellow {
+  background-color: Yellow;
+  width: 280px;
+  height: 250px;
+  float: left;
+}
+
+/*Setting my section to have a height of 73px so that there could be spaces*/
+section {
+  height: 73px;
+}
+
+/*Setting my section to have a height of 37px so that there could be spaces*/
+.section {
+  height: 37px;
+}
+
+/*Setting the id pf my services to have a width of 750px;*/
+#services {
+  width: 750px;
+}
+
+/*Allowing my image to float to the right*/
+.img {
+  float: right;
+}
+
+/*Making sure that my submit and reset button is of proper height and width*/
+.input {
+  width: 120px;
+  height: 40px;
+}
+
+/*Setting my image that is classed to the right*/
+.side {
+  float: right;
+}
+
+/*Making my docs id have a right float, a reasonable width thats inline with everything else and a white background color*/
+#docs {
+  float: right;
+  width: 300px;
+  background-color: white;
+}

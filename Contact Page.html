@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Page</title>
+    <!--Linking my css page to my html page-->
+    <link rel="stylesheet" type="text/css "href="styles.css">
+    <!--Linking my external icon linnk to my html page-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking my google fonts to my html page -->
+    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+    <style>
+    /*Styling my body to have margins so that the webpage can be of a proper width*/
+      body {
+        margin-left: 150px;
+        margin-right: 170px;
+      }
+      /*Styling my h4 to be aligned in the center and underlined*/
+      h4 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      /*Setting my footer to have a lower top margin than stated in the ecternal page*/
+      #footer {
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Setting a navigation bar , linking it to the necessary pages-->
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="About Page.html">About</a>
+      <a href="News Page.html">News</a>
+      <a href="Contact Page.html">Contact Us</a>
+    </nav>
+
+<!--Setting media icons with reasonable heights and widths-->
+<div>
+    <a href="#"><img src="images/email icon.png" alt="article" height="150" width="250"></a>
+    <a href="#"><img src="images/physical icon.png" alt="article" height="150" width="250"></a>
+    <a href="#"><img src="images/postal icon.png" alt="article" height="150" width="250"></a>
+    <a href="#"><img src="images/contact icon.png" alt="article" height="150" width="250"></a>
+</div>
+
+<!-- Structuring an iFrame with a video in it -->
+<div class="side">
+  <iframe width="304" height="258" src="https://www.youtube.com/embed/gr8_PHC46sk?list=PL09A9482D217EEDBD" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!--Starting a form for information to be filled in-->
+<h2>Email Us:</h2>
+<form>
+  <p>Fill out the form to send your comments, queries and feedback to the SABC.</p>
+  <p>Please select a category for your request:</p>
+ <select>
+  <option value="Request">Select a request</option>
+  <option value="Request">Tv License enquiries</option>
+  <option value="Request">Visit the SABC</option>
+  <option value="Request">Generic enquiries</option>
+  <option value="Request">Programme Enquiries</option>
+  <option value="Request">Programme Proposals</option>
+  <option value="Request">Programme Purchases</option>
+  <option value="Request">TV and radio signal reception problems</option>
+  <option value="Request">SABC 1 Enquiries</option>
+  <option value="Request">SABC 2 Enquiries</option>
+  <option value="Request">SABC 3 Enquiries</option>
+  <option value="Request">Advertising on SABC platforms</option>
+  <option value="Request">Complaints about SABC services</option>
+  <option value="Request">SABC internships</option>
+  <option value="Request">CSI Proposals</option>
+  <option value="Request">SABC encore enquiries</option>
+ </select>
+<br/>
+<br/>
+
+  Name:
+  <input type="text"/><br>
+  <br>
+  Email:
+  <input type="text"/><br>
+  <br>
+  Subject:
+  <input type="text"/><br>
+  <br>
+
+<!-- Structuring dummy links with various options in with regards to the "About" of SABC -->
+<div id="docs">
+  <h4>ABOUT THE SABC</h4>
+  <hr>
+  <ul>
+    <li><a href="#">Business Information</a></li>
+    <li><a href="#">Citizen Information</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">CSI Projects</a></li>
+    <li><a href="#">Documents</a></li>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">Press Release</a></li>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Commercial Enterprises</a></li>
+    <li><a href="#">SABC Tours</a></li>
+  </ul>
+
+</div>
+
+  <p>Message:</p>
+  <textarea name="message" rows="10" cols="50"></textarea>
+  <br/>
+
+  <input type="submit" class="input">
+  <input type="reset" class="input">
+</form>
+<br>
+
+<!--Setting a footer with social media icons and links to other information with regards to the website-->
+<footer id="footer">
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" id="About">About the SABC</a>
+  <a href="#" id="Ad">Advertise</a>
+  <a href="#" id="Contact">Contact Us</a>
+  <a href="#" id="Claimer">Disclaimer</a>
+  <a href="#" id="Tender">Tenders</a>
+  <a href="#" id="Press">Press Releases</a>
+  <a href="#" id="Job">Jobs</a>
+  <a href="#" id="Site">Site Map</a>
+</footer>
+</body>
+</html>
